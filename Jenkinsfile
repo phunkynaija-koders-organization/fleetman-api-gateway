@@ -8,7 +8,7 @@ pipeline {
 
      SERVICE_NAME = "fleetman-api-gateway"
      ORGANIZATION_NAME = "phunkynaija-koders-organization"
-     YOUR_DOCKERHUB_USERNAME="NaijaAutomator1"
+     YOUR_DOCKERHUB_USERNAME="naijaautomator1"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
    }
 
